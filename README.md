@@ -42,7 +42,7 @@ scikit-learn >= 0.24.0
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repository/PTEncoder.git
+git clone https://github.com/Xtu-LWGroup/PTEncoder.git
 cd PTEncoder
 
 # Install dependencies
@@ -289,10 +289,9 @@ Results are saved as JSON files in the specified output directory:
     "total_time": 1868.79,
     "feature_dim": 256,
     "gene_count": 500,
-    "model_type": "EnhancedCLVGAE"
   },
   "dataset": "/path/to/dataset",
-  "timestamp": "2024-01-15 14:30:22"
+ 
 }
 ```
 
@@ -394,42 +393,3 @@ trainer = Trainer(
     enable_checkpointing=True
 )
 ```
-
-## Citation
-
-If you use PTEncoder in your research, please cite:
-
-```bibtex
-@article{ptencoder2024,
-  title={PTEncoder: Temporal-Enhanced Contrastive Learning for Gene Regulatory Network Inference},
-  author={Your Name et al.},
-  journal={Bioinformatics},
-  year={2024},
-  volume={XX},
-  number={X},
-  pages={XXX-XXX}
-}
-```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-For questions, bug reports, or feature requests, please contact:
-- Email: your.email@institution.edu
-- GitHub Issues: https://github.com/your-repository/PTEncoder/issues
-
-## Acknowledgments
-
-We thank the developers of PyTorch, DGL, and PyTorch Lightning for providing excellent deep learning frameworks. This work was supported by [Funding Agency].
-
-## Version History
-
-- **v1.0.0** (2024-01-15): Initial release
-  - Core PTEncoder framework
-  - Temporal feature extraction
-  - Motif-aware GNN
-  - Neural ODE integration
-  - Contrastive learning module
