@@ -105,7 +105,7 @@ Run the main experiment script:
 
 ```bash
 cd src
-python experiment_enhanced_clvgae.py
+python main.py
 ```
 
 ### Configuration

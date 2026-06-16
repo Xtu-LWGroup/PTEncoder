@@ -200,7 +200,7 @@ class AblationExperiment:
     
     def train_model(self, model, preprocessor, epochs, lr, weight_decay):
         """
-        训练模型（参考 experiment_enhanced_clvgae.py）
+        训练模型（参考 main.py）
         
         Args:
             model: PyTorch Lightning 模型
